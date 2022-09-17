@@ -1,12 +1,12 @@
-num=int(input())
+n=int(input())
 s=0
-prod=1
-while(num>0):
-    b=num%10
-    s=s+b
-    prod=prod*b
-    num=num//10
-if(s==prod):
-    print( "Spy Number")
+p=1
+while n>0:
+    k=n%10
+    s=s+k
+    p=p*k
+    n=n//10
+if(s==p):
+    print("Spy Number")
 else:
     print("Not Spy Number")
